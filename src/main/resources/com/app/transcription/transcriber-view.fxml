@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="120.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" >
+   <children>
+      <Label fx:id="nameOfTranscriber" layoutY="7.0" text="Type" />
+      <Label fx:id="speedOfTranscription" layoutX="450.0" layoutY="99.0" text="00.00" />
+      <Label fx:id="wordErrorRate" layoutX="6.0" layoutY="99.0" text="WER:" />
+      <TextFlow layoutX="38.0" layoutY="14.0" prefHeight="79.0" prefWidth="450.0" />
+   </children>
+</AnchorPane>
